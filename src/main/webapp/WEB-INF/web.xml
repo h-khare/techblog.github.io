@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Register</servlet-name>
+  	<display-name>Register</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Edit</servlet-name>
+  	<display-name>Edit</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.Edit</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddPost</servlet-name>
+  	<display-name>AddPost</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.AddPost</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddPosts</servlet-name>
+  	<display-name>AddPosts</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.AddPosts</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LikeServlet</servlet-name>
+  	<display-name>LikeServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.LikeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<display-name>Delete</display-name>
+  	<description></description>
+  	<servlet-class>com.blog.controller.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Register</servlet-name>
+  	<url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Edit</servlet-name>
+  	<url-pattern>/Edit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddPost</servlet-name>
+  	<url-pattern>/AddPost</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddPosts</servlet-name>
+  	<url-pattern>/AddPosts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LikeServlet</servlet-name>
+  	<url-pattern>/LikeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+</web-app>
