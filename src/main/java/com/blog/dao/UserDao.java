@@ -112,7 +112,6 @@ public class UserDao {
 			if(rs.next())
 			{
 				user = new User();
-				System.out.println("Milgya bsdk");
 				user.setId(rs.getInt("id"));
 				user.setName(rs.getString("name"));
 				user.setEmail(rs.getString("email"));
